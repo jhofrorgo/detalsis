@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+	<title>Administración y gestión del consultorio odontológico</title>
+	<link rel="stylesheet" type="text/css" href="../Css/Normalize.css"/>
+	<link rel="stylesheet" type="text/css" href="../Css/estilo.css"/>
+	<link href="../Img/favicon2.png" rel="shortcut icon"/>
+	<link href="https://fonts.googleapis.com/css?family=Dosis:400,600,700,800" rel="stylesheet"><!--importacion de fuentes 
+	de google-->
+</head>
+<body>
+	<div id="indexInicio">
+		<div id="headerInicio">
+			<a href="Inicio.html"><img src="../Img/logo.png" alt="Pagina_de_inicio" id="logoHeader"  title="Pagina de Inicio"></a>
+			<hr id="vertical" />
+			<h2 class="nombreClinica">Administración y gestión del consultorio odontológico</h2>
+			<hr id="horizontal"/>
+			<span class="infoclinica">Clínica Dentifamily, sede: <font class="sede"> Bucaramanga</font></span>
+			<hr id="verticalDos" />
+			<span id="datosUser"> <img src="../Img/nube.png" title="Perfil: Super Usuario">Usuario:
+				<p><a href="#"><img src="../Img/usuario.png" title="Mi perfil"></a>Jhon Freddy Ortiz Gomez</p>
+			</span>
+		</div>
+		<div id="izquierda" >
+			<span onload="fecha()" src="../Js/Scripts.js">
+				<script languaje="JavaScript"> 
+					var mydate=new Date() 
+					var year=mydate.getYear() 
+					if (year < 1000) 
+					year+=1900 
+					var day=mydate.getDay() 
+					var month=mydate.getMonth() 
+					var daym=mydate.getDate() 
+					if (daym<10) 
+					daym="0"+daym 
+					var dayarray = new Array("Domingo,","Lunes,","Martes,","Miércoles,","Jueves,","Viernes,","Sábado,")
+					var montharray = new Array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre")
+					document.write("<center>"+dayarray[day]+" "+daym+" de "+montharray[month]+" de "+year+"</center") 
+				</script>
+			</span>
+			<hr id="barraizquierda" />
+			<span class="btn-group">
+  				<a href="Inicio.html" target="_blank"><button class="button"><span><img src="../Img/bienvenido.png" class="accesos"> Inicio</span></button></a>
+  				<a href="pacientes.html" target="_blank"><button class="button"><span><img src="../Img/btn_pac.png" class="accesos"> Pacientes</span></button></a>
+  				<button class="button"><span><img src="../Img/mini_hc.png" class="accesos"> H. Clinica</span></button>
+  				<button class="button"><span><img src="../Img/odontograma.png" class="accesos"> Odontograma</span></button>
+  				<button class="button"><span><img src="../Img/galeria.png" class="accesos"> Galeria</span></button>
+  				<button class="button"><span><img src="../Img/btn_afil.png" class="accesos">C. informados</span></button>
+  				<button class="button"><span><img src="../Img/btn_consent.png" class="accesos"> Impresiones</span></button>
+  				<button class="button"><span><img src="../Img/btn_conf.png" class="accesos"> Configuración</span></button>
+			</span>
+		</div>
+		<div id="centro">
+			<h1>Ultimas Noticias</h1>
+
+			<div class="slideshow-container">
+			<div class="mySlides">
+			  <div class="numbertext">1 / 3</div>
+			  <img src="../Img/slider1.jpg" class="slider" style="width:100%">
+			  <div class="text">Nuevo sistema de credito</div>
+			</div>
+
+			<div class="mySlides">
+			  <div class="numbertext">2 / 3</div>
+			  <img src="../Img/slider2.jpg" class="slider" style="width:100%">
+			  <div class="text">Promocion del mes</div>
+			</div>
+
+			<div class="mySlides">
+			  <div class="numbertext">3 / 3</div>
+			  <img src="../Img/madres.jpg" class="slider" style="width:100%">
+			  <div class="text">Promocion del mes de las madres se extiende hasta finales de Junio</div>
+			</div>
+
+			</div>
+			<br>
+
+			<div style="text-align:center">
+			  <span class="dot"></span> 
+			  <span class="dot"></span> 
+			  <span class="dot"></span> 
+
+			</div>
+			<script type="text/javascript">
+				var slideIndex = 0;
+				showSlides();
+
+				function showSlides() {
+				    var i;
+				    var slides = document.getElementsByClassName("mySlides");
+				    var dots = document.getElementsByClassName("dot");
+				    for (i = 0; i < slides.length; i++) {
+				       slides[i].style.display = "none";  
+				    }
+				    slideIndex++;
+				    if (slideIndex > slides.length) {slideIndex = 1}    
+				    for (i = 0; i < dots.length; i++) {
+				        dots[i].className = dots[i].className.replace(" active", "");
+				    }
+				    slides[slideIndex-1].style.display = "block";  
+				    dots[slideIndex-1].className += " active";
+				    setTimeout(showSlides, 3000); // Change image every 3 seconds
+				}
+			</script>
+		</div>
+		<div id="footer">
+			
+
+</body>
+</html>

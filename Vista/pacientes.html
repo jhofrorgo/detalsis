@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+	<title>Administración y gestión del consultorio odontológico</title>
+	<link rel="stylesheet" type="text/css" href="../Css/Normalize.css"/>
+	<link rel="stylesheet" type="text/css" href="../Css/estilo.css"/>
+	<link href="../Img/favicon2.png" rel="shortcut icon"/>
+	<link href="https://fonts.googleapis.com/css?family=Dosis:400,600,700,800" rel="stylesheet"><!--importacion de fuentes 
+	de google-->
+</head>
+<body>
+	<div id="indexInicio">
+		<div id="headerInicio">
+			<a href="Inicio.html"><img src="../Img/logo.png" alt="Pagina_de_inicio" id="logoHeader"  title="Pagina de Inicio"></a>
+			<hr id="vertical" />
+			<h2 class="nombreClinica">Administración y gestión de pacientes</h2>
+			<hr id="horizontal"/>
+			<span class="infoclinica">Clínica Dentifamily, sede: <font class="sede"> Bucaramanga</font></span>
+			<hr id="verticalDos" />
+			<span id="datosUser"> <img src="../Img/nube.png" title="Perfil: Super Usuario">Usuario:
+				<p><a href="#"><img src="../Img/usuario.png" title="Mi perfil"></a>Jhon Freddy Ortiz Gomez</p>
+			</span>
+		</div>
+		<div id="Buscador">
+			<form method="post">
+			<span class="busc">Buscar Paciente: Diligencie los campos para inicar la busqueda <input type="text" id="documento" placeholder="Digite nombres y apellidos o numero de documento" autofocus required></span><input type="submit" value="Buscar" id="but-buscar"><a href="NuevoPaciente.html"><input type="button" value="Crear" id="crear-pte"></a>
+			<hr/>
+			<table class="datos" border="1px" cellpadding=10 cellspaging=0>
+				<th>Nombres</th><th>Numero de documento</th><th>Edad</th><th>Telefono</th><th>Acciones</th>
+					<tr>
+						<td>Jhon frreddy Ortiz Gomez</td><td>1.098.707.686</td><td>26 Años</td><td>3183624235</td><td class="actions"><a href="#"><img src="../Img/editar.png" title="Editar paciente"></a><a href="#"></a><a href="#"><img src="../Img/eliminar.png" title="Eliminar paciente"></a></tr>
+					</tr>
+					<tr>
+						<td>Yurley Tatiana Florez Portilla</td><td>1.000.000.000</td><td>23 Años</td><td>3145324355</td><td class="actions"><a href="#"><img src="../Img/editar.png" title="Editar paciente"></a><a href="#"></a><a href="#"><img src="../Img/eliminar.png" title="Eliminar paciente"></a></td>
+					</tr>
+										
+			</table>
+
+			</form>
+

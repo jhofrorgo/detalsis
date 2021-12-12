@@ -1,0 +1,490 @@
+
+/*inicio pagina index.html*/
+#index {
+ 	background-image: url("../Img/fondo3.jpg");
+ 	background-size: 100% 100% !important;
+ 	background-repeat: no-repeat;/*que el fondo salga en una sola imagen*/
+ 	position: absolute !important;
+ 	z-index: 1 !important;/*se hace para que el fondo quede detras de todo*/
+ 	width: 100% !important;/*ancho total del div*/
+ 	height: 100% !important;/*slargo total del div */
+ 	font-family: 'Dosis', sans-serif;
+
+ 	}
+
+#contenedor-login {
+	margin-top: 12%;
+	margin-left: 41%;
+	background-color: #BFD0E4;
+	font-weight: bold;
+	text-align: center;
+	padding: 2%;
+	width: 20%;
+	border-radius: 0px 0px 184px 200px;
+	-moz-border-radius: 0px 0px 184px 200px;
+	-webkit-border-radius: 0px 0px 184px 200px;
+	border: 0px solid #000000;
+	-webkit-box-shadow: 0px 3px 98px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 98px -2px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 98px -2px rgba(0,0,0,0.75);
+	background: rgba(212,228,239,1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 46%, rgba(134,174,204,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(212,228,239,1)), color-stop(46%, rgba(212,228,239,1)), color-stop(100%, rgba(134,174,204,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 46%, rgba(134,174,204,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 46%, rgba(134,174,204,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 46%, rgba(134,174,204,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 46%, rgba(134,174,204,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=1 );
+}
+input {
+	border-radius: 10px;
+	padding: 5px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: hand;
+	-webkit-box-shadow: 0px 3px 98px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 98px -2px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 98px -2px rgba(0,0,0,0.75);
+}
+.ingresar {
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.ingresar:hover{
+	background: rgba(113,206,239,1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(113,206,239,1) 0%, rgba(183,222,237,1) 25%, rgba(183,222,237,1) 66%, rgba(33,180,226,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(113,206,239,1)), color-stop(25%, rgba(183,222,237,1)), color-stop(66%, rgba(183,222,237,1)), color-stop(100%, rgba(33,180,226,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(113,206,239,1) 0%, rgba(183,222,237,1) 25%, rgba(183,222,237,1) 66%, rgba(33,180,226,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(113,206,239,1) 0%, rgba(183,222,237,1) 25%, rgba(183,222,237,1) 66%, rgba(33,180,226,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(113,206,239,1) 0%, rgba(183,222,237,1) 25%, rgba(183,222,237,1) 66%, rgba(33,180,226,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(113,206,239,1) 0%, rgba(183,222,237,1) 25%, rgba(183,222,237,1) 66%, rgba(33,180,226,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71ceef', endColorstr='#21b4e2', GradientType=1 );
+	color:#0B0464;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#logo {
+	width: 180px;
+}
+/*fin pagina index.html*/
+
+/*inicio pagina inicio.html*/
+/*div del header*/
+#indexInicio {
+ 	background-image: url("../Img/fondo10.jpg");
+ 	background-size: 100% 100% !important;
+ 	background-repeat: no-repeat;/*que el fondo salga en una sola imagen*/
+ 	position: absolute !important;
+ 	z-index: 1 !important;/*se hace para que el fondo quede detras de todo*/
+ 	width: 100% !important;/*ancho total del div*/
+ 	height: 100% !important;/*slargo total del div */
+ 	font-family: 'Dosis', sans-serif;
+
+ 	}
+ #headerInicio {/*contenedor de la cabeza de pagina*/
+ 	background: rgba(134,174,204,1);
+    background: -webkit-linear-gradient(rgba(134,174,204,1) 0%, rgba(134,174,204,1) 1%, rgba(166,196,218,1) 21%, rgba(212,228,239,1) 50%);
+    background: -o-linear-gradient(rgba(134,174,204,1) 0%, rgba(134,174,204,1) 1%, rgba(166,196,218,1) 21%, rgba(212,228,239,1) 50%);
+    background: linear-gradient(rgba(134,174,204,1) 0%, rgba(134,174,204,1) 1%, rgba(166,196,218,1) 21%, rgba(212,228,239,1) 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#86aecc', endColorstr='#d4e4ef', GradientType=0 );
+    width: 80%;
+    height: 12%;
+    padding:0.5%;
+    margin-left: 10%;
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    position: absolute;
+    z-index: 2;
+ }
+#logoHeader {/*configuracion del logo*/
+ 	width: 18%;
+ 	position: absolute;
+ }
+ #vertical {/*barra separadora vertical derecha*/
+ 	width: 1px;
+ 	height: 60%;
+ 	margin-left: 20%;
+ 	position: absolute;
+ }
+  #headerInicio > h2 {/*titulo de la pagina*/
+  	text-align: center;
+  	margin: 0px;
+  	color:#16488B;
+  }
+   #horizontal {/*barra separadora horizontal del centro*/
+ 	width:30%;
+ }
+    #headerInicio > p {
+  	text-align: center;
+  }
+.infoclinica {/*informacion de la clinica y sede*/
+	margin-left: 38%;
+	position: absolute;
+	text-align: center;
+	position: absolute;
+}
+.sede {
+	color:#16488B;
+	font-weight: bold;
+	font-size: 110%;
+	text-align: center;
+}
+#verticalDos {/*barra separadora vertical izq*/
+	width: 1px;
+ 	height: 60%;
+ 	margin-left: 80%;
+ 	position: absolute;
+ 	margin-top: -3.5%;
+}
+#datosUser {/*datos del usuario registrado*/
+	margin-left: 82%;
+	margin-top: -4%;
+	position: absolute;
+}
+/*fin deizquierdo de la pagina*/
+#izquierda {
+    background: rgba(134,174,204,1);
+    background: -webkit-linear-gradient(left, rgba(134,174,204,1) 0%, rgba(134,174,204,1) 1%, rgba(166,196,218,1) 21%, rgba(212,228,239,1) 50%);
+    background: -o-linear-gradient(left, rgba(134,174,204,1) 0%, rgba(134,174,204,1) 1%, rgba(166,196,218,1) 21%, rgba(212,228,239,1) 50%);
+    background: linear-gradient(to right, rgba(134,174,204,1) 0%, rgba(134,174,204,1) 1%, rgba(166,196,218,1) 21%, rgba(212,228,239,1) 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#86aecc', endColorstr='#d4e4ef', GradientType=1 );
+    width:17%;
+    height: 75%;
+    margin-top: 7%;
+    margin-left: 10%;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    position: absolute;
+    padding: 1%;
+    float:left;
+}
+#barraizquierda {
+	width:80%;
+	margin-bottom: 1%;
+}
+/*menu*/
+.btn-group .button {
+	background-color: #86aecc;
+    border: 1px solid grey;
+    color: black;
+    padding: 10px 5px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100%;
+    cursor: pointer;
+    width: 95%;
+    height: 12%;
+    display: block;
+    position: center;
+    margin-left: 3%;
+	
+}
+
+.btn-group .button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+    background: rgba(134,174,204,1);
+    background: -webkit-linear-gradient(left, rgba(134,174,204,1) 0%, rgba(134,174,204,1) 1%, rgba(166,196,218,1) 21%, rgba(212,228,239,1) 50%);
+    background: -o-linear-gradient(left, rgba(134,174,204,1) 0%, rgba(134,174,204,1) 1%, rgba(166,196,218,1) 21%, rgba(212,228,239,1) 50%);
+    background: linear-gradient(to right, rgba(134,174,204,1) 0%, rgba(134,174,204,1) 1%, rgba(166,196,218,1) 21%, rgba(212,228,239,1) 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#86aecc', endColorstr='#d4e4ef', GradientType=1 );
+    font-weight: bold;
+    font-size: 130%;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.3s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.accesos {
+	width: 20%;
+	height:20%;
+	position: relative;
+}
+/*fin del menu*/
+#centro {
+	margin-left: 27%;
+	margin-top: 7%;
+	width:63%;
+	height: 75%;
+	background-color: #d4e4ef;
+	text-align: center;
+	padding: 1%;
+	border-left: 0.3px solid #D5D0D0;
+}
+#contenidoNoticias{
+	display: block;
+	text-align: justify;
+}
+.diente {
+	width:85%;
+	height: 100%;
+	opacity:0.5;
+}
+.diente:hover {
+	opacity: 1;
+	cursor:
+}
+#diagrama{
+	background-color: red;
+	margin-left: 1%
+	width: 50%;
+	border:1px solid grey;
+	position: absolute;
+
+}
+#cajaOpciones {
+	width: 23%;
+	height: 76%;
+	position:absolute;
+	margin-left: 76%;
+	background-color: yellow;
+	white-space: pre;
+	display: block;
+}
+.color{
+	width: 20%;
+	cursor: help;
+}
+/* aca va el slider del centro*/
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+.slider {
+vertical-align: middle;
+-webkit-box-shadow: 2px 3px 62px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 3px 62px 1px rgba(0,0,0,0.75);
+box-shadow: 2px 3px 62px 1px rgba(0,0,0,0.75);}
+
+/* contenedor del slider */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Texto delante de la imagen */
+.text {
+  color: #000000;
+  font-size: 150%;
+  font-weight: bold;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  background-color: #FFFFFF;
+  opacity: 0.7;
+}
+
+/* texto de los numeros (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* los indicadores */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* animacion fade */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+/*fin del slider del centro*/
+
+
+/*pagina de buscar pacientes*/
+/*inicio barra buscador*/
+#Buscador {
+	background-color: #d4e4ef;
+	width: 80%;
+	height: 80%;
+	margin-left: 10%;
+	margin-top: 7%;
+	padding: 1%;
+	border-bottom-left-radius: 5%;
+	border-bottom-right-radius: 5%;
+
+}
+.busc {
+	font-weight: bold;
+	color: #16488B;
+}
+.busc input{
+	box-shadow: none;
+	width: 35%;
+	margin-top:-1%;
+	position: absolute;
+	margin-left: 3%;
+
+}
+#but-buscar{
+	box-shadow: none;
+	margin-top: -1%;
+	position: absolute;
+	margin-left: 39%;
+}
+#crear-pte{
+	box-shadow: none;
+	margin-top: -1%;
+	position: absolute;
+	margin-left: 45%;
+}
+/*fin barra buscador*/
+.datos{
+	width: 90%;
+	margin-left: 5%;
+	text-align: center;
+	background-color: #FFFFFF;
+	max-height: 90%;
+}
+.datos img{
+	width:20%;
+	height: 8%;
+	padding: 3%
+
+}
+.actions{
+	width:20%;
+}
+#NuevoPteCentro {
+	position:absolute;
+	display: block;
+	z-index: 2;
+	margin-top: 8%;
+	margin-left: 10%;
+	height: 80%;
+	width: 80%;
+}
+#NuevoPteCentro input{
+	box-shadow: none;
+	font-size: 13px;
+	width:auto;
+	}
+#NuevoPteCentro input[class=required]{
+	border:solid #86aecc;
+}
+#NuevoPteCentro input[class=norequired]{
+	border:solid #d4e4ef;
+}
+.accordion {
+    background-color: #eee;
+    color: #16488B;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+.DatosBasicos{
+	float: left;
+}
+.avatar{
+	border-radius: 50%;
+	width: 100%;
+
+}
+.avatarbtn{
+	padding: 2%;
+	margin-left: 3%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
